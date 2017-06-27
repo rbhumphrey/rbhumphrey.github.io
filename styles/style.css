@@ -1,0 +1,21 @@
+
+html {
+    box-sizing: border-box
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Josefin Slab', serif;
+}
