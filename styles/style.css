@@ -101,6 +101,15 @@ nav.sticky {
 	display: block;
 }
 
+.fa-sign-out {
+	text-shadow: 0 3px 0 rgba(44, 62, 80, 0.35);
+}
+
+
+.fa-sign-out:hover {
+	cursor: pointer;
+}
+
 .social-icons {
 	margin-top: 3em;
 	padding-left: 0;
@@ -218,7 +227,7 @@ ul.bullet {
 	line-height: 21px;
 	border: 2px solid #d4d4d4;
 	display: block;
-	max-width: 146px;
+	max-width: 147px;
 }
 
 #resume .resume-link:hover {
