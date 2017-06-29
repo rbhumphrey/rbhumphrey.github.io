@@ -37,8 +37,9 @@ h4 {
 h2 {
 	font-family: 'Josefin Slab', serif;
 	margin-top: 2.5em;
-	text-shadow: 1px -1px rgba(24,188,156,.5);
 	letter-spacing: 2px;
+	border-bottom: 7px double #d4d4d4;
+	display: inline-block;
 }
 
 a {
@@ -137,7 +138,7 @@ ul.bullet {
 .about-wrapper h1,
 .about-wrapper h2,
 .about-wrapper h3  {
-	padding-left: 1em;
+	margin-left: 1em;
 }
 
 .skill ul {
@@ -193,6 +194,10 @@ ul.bullet {
 	padding: 0 1em;
 }
 
+#resume h2 {
+	margin-right: 0.5em;
+}
+
 #resume .wrk h3 {
 	font-weight: 700;
 	margin-bottom: 0;
@@ -202,6 +207,23 @@ ul.bullet {
 #resume .wrk h4 {
 	color: #18bc9c;
 	margin-top: 0;
+}
+
+#resume .resume-link {
+	color: #ffffff;
+	background-color: #d4d4d4;
+	padding: 3px 9px;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 21px;
+	border: 2px solid #d4d4d4;
+	display: block;
+	max-width: 146px;
+}
+
+#resume .resume-link:hover {
+	border: 2px solid #18bc9c;
+	text-decoration: none;
 }
 
 #resume .wrk h4.site-list {
