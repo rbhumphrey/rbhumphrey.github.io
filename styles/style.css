@@ -227,7 +227,8 @@ ul.bullet {
 	line-height: 21px;
 	border: 2px solid #d4d4d4;
 	display: block;
-	max-width: 147px;
+	max-width: 150px;
+	text-align: center;
 }
 
 #resume .resume-link:hover {
